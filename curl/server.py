@@ -62,7 +62,7 @@ def index():
     if 'curl' in user_agent.lower():
         return Response(streamer(), content_type='text/plain; charset=utf-8')
     else:
-        return redirect('https://www.deangelo.tk')
+        return redirect('https://deangelo.ftp.sh')
 
 
 if __name__ == '__main__':

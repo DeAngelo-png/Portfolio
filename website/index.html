@@ -11,7 +11,73 @@
 
 <html>
 <head>
-	<title>DeAngelo's Portfolio</title>
+   <title>DeAngelo's Portfolio</title> <!-- Animated Title -->
+			<script>
+				const titles = [
+					"➤ |",
+					"➤ ",
+					"➤ |",
+					"➤ ",
+					"➤ |",
+					"➤ D|",
+					"➤ De|",
+					"➤ DeA|",
+					"➤ DeAn|",
+					"➤ DeAng|",
+					"➤ DeAnge|",
+					"➤ DeAngel|",
+					"➤ DeAngelo|",
+					"➤ DeAngelo'|",
+					"➤ DeAngelo's|",
+					"➤ DeAngelo's |",
+					"➤ DeAngelo's P|",
+					"➤ DeAngelo's Po|",
+					"➤ DeAngelo's Por|",
+					"➤ DeAngelo's Port|",
+					"➤ DeAngelo's Portf|",
+					"➤ DeAngelo's Portfo|",
+					"➤ DeAngelo's Portfol|",
+					"➤ DeAngelo's Portfoli|",
+					"➤ DeAngelo's Portfolio|",
+					"➤ DeAngelo's Portfolio",
+					"➤ DeAngelo's Portfolio [⏎]",
+					"➤ DeAngelo's Portfolio [⏎]",
+					"➤ DeAngelo's Portfolio [⌫]",
+					"➤ DeAngelo's Portfolio [⌫]",
+					"➤ DeAngelo's Portfol [⌫]",
+					"➤ DeAngelo's Portfo [⌫]",
+					"➤ DeAngelo's Portf [⌫]",
+					"➤ DeAngelo's Port [⌫]",
+					"➤ DeAngelo's Por [⌫]",
+					"➤ DeAngelo's Po [⌫]",
+					"➤ DeAngelo's P [⌫]",
+					"➤ DeAngelo's  [⌫]",
+					"➤ DeAngelo' [⌫]",
+					"➤ DeAngelo [⌫]",
+					"➤ DeAngel [⌫]",
+					"➤ DeAnge [⌫]",
+					"➤ DeAng [⌫]",
+					"➤ DeAn [⌫]",
+					"➤ DeA [⌫]",
+					"➤ De [⌫]",
+					"➤ D [⌫]",
+					"➤  [⌫]",
+					"➤ |",
+					"➤ ",
+					"➤ |",
+					"➤ ",
+				];
+
+				let currentTitleIndex = 0;
+
+				function updateTitle() {
+					document.title = titles[currentTitleIndex];
+					currentTitleIndex = (currentTitleIndex + 1) % titles.length;
+				}
+
+				// Update the title every 250ms
+				setInterval(updateTitle, 250);
+			</script>
    <link rel="icon" type="image/x-icon" href="./favicon.ico">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta charset="utf-8">

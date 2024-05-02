@@ -1,4 +1,4 @@
-/* Set backgound color*/
+/* Backgound color*/
 body {
   color: #dddddd;
   background-color: #000000; 
@@ -6,6 +6,11 @@ body {
   line-height: 16px;
   margin: 0 auto;
   padding: 1em 0 1em 0;
+}
+
+/* Cursor */
+body {
+  cursor: url('./media/cursor.png'), auto;
 }
 
 /* Adjust layout for smaller screens */

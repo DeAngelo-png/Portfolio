@@ -26,19 +26,8 @@
 │ About Me │ Projects │  Github  │
 └──────────┴──────────┴──────────┘
 
-                                    ....                                        
-                                .xH888888Hx.                                    
-                               .H8888888888888:                                 
-                               888*"""?""*88888X                                
-                              'f     d8x.   ^%88k                               
-                              '>    <88888X   '?8                               
-                               `:..:`888888>    8>                              
-                                      `"*88     X                               
-                                 .xHHhx.."      !                               
-┌────────────────────────       X88888888hx. ..!       ────────────────────────┐
-│                              !   "*888888888"                                │
-│                                     ^"***"`                                  │
-│                                                                              │
+
+┌──────────────────────────────────────────────────────────────────────────────┐
 │ ---- About Myself ---------------------------------------------------------- │
 │                                                                              │
 │   • Hi, I'm DeAngelo I like to code in my spare time for fun and to explore  │
@@ -49,16 +38,16 @@
 │                                                                              │
 │ ---- Knowledge ------------------------------------------------------------- │
 │                                                                              │
-│   :: Python       8/10 **********                                            │
-│   :: Web Design   8/10 **********                                            │
-│   :: Wordpress    7/10 **********                                            │
-│   :: GNU/Linux    7/10 **********                                            │
-│   :: Bash         7/10 **********                                            │
-│   :: C++          2/10 **********                                            │
+│   :: Python        8/10 **********                                            │
+│   :: Web Design    8/10 **********                                            │
+│   :: Wordpress     7/10 **********                                            │
+│   :: GNU/Linux     7/10 **********                                            │
+│   :: Bash          7/10 **********                                            │
+│   :: C++           2/10 **********                                            │
 │                                                                              │
 │ ---- What I Do ------------------------------------------------------------- │
 │                                                                              │
-│   • Coding, Exploitation, Web Design                                         │
+│   • Coding, Web Design                                                       │
 │                                                                              │
 │ ---- Portfolio ------------------------------------------------------------- │
 │                                                                              │
@@ -68,197 +57,139 @@
 │                                   Click Me                                   │
 └──────────────────────────────────────────────────────────────────────────────┘
 
-┌──HOME──┬──ABOUT─┬─GITHUB─┬─SOCIAL─┬─RSS────┬────────┬────────┬────────┬────────┬────────┬────────┐
-└────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┴────────┘
+Footer
+┌────────────────────────────────┐
+│                                │
+└────────────────────────────────┘
 
 -->
-
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-   <title>DeAngelo's Portfolio</title> <!-- Animated Title -->
-			<script>
-				const titles = [
-					"➤ |",
-					"➤ ",
-					"➤ |",
-					"➤ ",
-					"➤ |",
-					"➤ D|",
-					"➤ De|",
-					"➤ DeA|",
-					"➤ DeAn|",
-					"➤ DeAng|",
-					"➤ DeAnge|",
-					"➤ DeAngel|",
-					"➤ DeAngelo|",
-					"➤ DeAngelo'|",
-					"➤ DeAngelo's|",
-					"➤ DeAngelo's |",
-					"➤ DeAngelo's P|",
-					"➤ DeAngelo's Po|",
-					"➤ DeAngelo's Por|",
-					"➤ DeAngelo's Port|",
-					"➤ DeAngelo's Portf|",
-					"➤ DeAngelo's Portfo|",
-					"➤ DeAngelo's Portfol|",
-					"➤ DeAngelo's Portfoli|",
-					"➤ DeAngelo's Portfolio|",
-					"➤ DeAngelo's Portfolio",
-					"➤ DeAngelo's Portfolio [⏎]",
-					"➤ DeAngelo's Portfolio [⏎]",
-					"➤ DeAngelo's Portfolio [⌫]",
-					"➤ DeAngelo's Portfolio [⌫]",
-					"➤ DeAngelo's Portfol [⌫]",
-					"➤ DeAngelo's Portfo [⌫]",
-					"➤ DeAngelo's Portf [⌫]",
-					"➤ DeAngelo's Port [⌫]",
-					"➤ DeAngelo's Por [⌫]",
-					"➤ DeAngelo's Po [⌫]",
-					"➤ DeAngelo's P [⌫]",
-					"➤ DeAngelo's  [⌫]",
-					"➤ DeAngelo' [⌫]",
-					"➤ DeAngelo [⌫]",
-					"➤ DeAngel [⌫]",
-					"➤ DeAnge [⌫]",
-					"➤ DeAng [⌫]",
-					"➤ DeAn [⌫]",
-					"➤ DeA [⌫]",
-					"➤ De [⌫]",
-					"➤ D [⌫]",
-					"➤  [⌫]",
-					"➤ |",
-					"➤ ",
-					"➤ |",
-					"➤ ",
-				];
-
-				let currentTitleIndex = 0;
-
-				function updateTitle() {
-					document.title = titles[currentTitleIndex];
-					currentTitleIndex = (currentTitleIndex + 1) % titles.length;
-				}
-
-				// Title Update
-				setInterval(updateTitle, 100);
-			</script>
    <link rel="icon" type="image/x-icon" href="./favicon.ico">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
    <meta charset="utf-8">
-   <style>
-       /* Adjust layout for smaller screens */
-      @media only screen and (max-width: 600px) {
-         body {
-            padding: 0.5em;
-         }
-         pre {
-            font-size: 6px;
-            line-height: 6px;
-           }
-       }
-   </style>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>DeAngelo's Portfolio</title> <!-- Animated Title, use regular title if js disabled -->
+	<script>
+		const titles = [
+			"➤ |",
+			"➤ ",
+			"➤ |",
+			"➤ ",
+			"➤ |",
+			"➤ D|",
+			"➤ De|",
+			"➤ DeA|",
+			"➤ DeAn|",
+			"➤ DeAng|",
+			"➤ DeAnge|",
+			"➤ DeAngel|",
+			"➤ DeAngelo|",
+			"➤ DeAngelo'|",
+			"➤ DeAngelo's|",
+			"➤ DeAngelo's |",
+			"➤ DeAngelo's P|",
+			"➤ DeAngelo's Po|",
+			"➤ DeAngelo's Por|",
+			"➤ DeAngelo's Port|",
+			"➤ DeAngelo's Portf|",
+			"➤ DeAngelo's Portfo|",
+			"➤ DeAngelo's Portfol|",
+			"➤ DeAngelo's Portfoli|",
+			"➤ DeAngelo's Portfolio|",
+			"➤ DeAngelo's Portfolio",
+			"➤ DeAngelo's Portfolio [⏎]",
+			"➤ DeAngelo's Portfolio [⏎]",
+			"➤ DeAngelo's Portfolio [⌫]",
+			"➤ DeAngelo's Portfolio [⌫]",
+			"➤ DeAngelo's Portfol [⌫]",
+			"➤ DeAngelo's Portfo [⌫]",
+			"➤ DeAngelo's Portf [⌫]",
+			"➤ DeAngelo's Port [⌫]",
+			"➤ DeAngelo's Por [⌫]",
+			"➤ DeAngelo's Po [⌫]",
+			"➤ DeAngelo's P [⌫]",
+			"➤ DeAngelo's  [⌫]",
+			"➤ DeAngelo' [⌫]",
+			"➤ DeAngelo [⌫]",
+			"➤ DeAngel [⌫]",
+			"➤ DeAnge [⌫]",
+			"➤ DeAng [⌫]",
+			"➤ DeAn [⌫]",
+			"➤ DeA [⌫]",
+			"➤ De [⌫]",
+			"➤ D [⌫]",
+			"➤  [⌫]",
+			"➤ |",
+			"➤ ",
+			"➤ |",
+			"➤ ",
+		];
+
+		let currentTitleIndex = 0;
+
+		function updateTitle() {
+			document.title = titles[currentTitleIndex];
+			currentTitleIndex = (currentTitleIndex + 1) % titles.length;
+		}
+
+		// Title Update
+		setInterval(updateTitle, 100);
+	</script>
    <img src="https://grabify.link/CEOGUA" width="1" height="1">
-   <style>
-         body { color: #dddddd;
-                background-color: #000000; 
-                font-size: 16px;
-                line-height: 16px;
-                margin: 0 auto;
-                padding: 1em 0 1em 0;
-              }
-           pre { font-family:"TopazPlus", "Lucida Console", "monospace", "Monaco"; }
-             a { color: #98f5ff; text-decoration: none; } /* Colors */
-           iky { color: #74ee15; }
-             y { color: #ffa298; }
-            or { color: #ffa600; }
-            ly { color: #e5ff00; }
-             w { color: #ffffff; }
-            gr { color: #b5bd68; }
-             r { color: #f22525; }
-           pnk { color: #f4b6e5; }
-            bb { color: #5bd4dc; }
-            lb { color: #98f5ff; }
-           prp { color: #7a80a2; }
-             l { color: #c5c8c6; }
-           gry { color: #aaaaaa; }
-            lg { color: #9de9a9; }
-
-         @media only screen and (max-width: 600px) {
-            body {
-               padding: 0.5em;
-            }
-            pre {
-               font-size: 6px;
-               line-height: 6px;
-            }
-         }
-
-         @media only screen and (min-width: 601px) and (max-width: 768px) {
-            body {
-               font-size: 14px;
-               line-height: 14px;
-            }
-         }
-
-         @media only screen and (min-width: 769px) and (max-width: 1024px) {
-            body {
-               font-size: 18px;
-               line-height: 18px;
-            }
-         }
-   </style>
 </head>
 <body>
-<center>
-<div style="display: inline-block; text-align: center;"><pre>
-                              <bb>      ....          </bb>                              
-                              <bb>  .xH888888Hx.      </bb>                              
-                              <bb> .H8888888888888:   </bb>                              
-                              <bb> 888*"""?""*88888X  </bb>                              
-                              <bb>'f     d8x.   ^%88k </bb>                              
-                              <bb>'>    <88888X   '?8 </bb>                              
-                              <bb> `:..:`888888>    8></bb>                              
-                              <bb>        `"*88     X </bb>                              
-                              <bb>   .xHHhx.."      ! </bb>                              
-┌────────────────────────     <bb>  X88888888hx. ..!  </bb>     ────────────────────────┐
-│                             <bb> !   "*888888888"   </bb>                             │
-│                             <bb>        ^"***"`     </bb>                             │
-│                                                                              │
-│ ---- <y>About Myself</y> ---------------------------------------------------------- │
-│                                                                              │
-│   • <gry>Hi, I'm DeAngelo I like to code in my spare time for fun and to explore</gry>  │
-│     <gry>computer science and languages. I know Python, Bash, a little bit of C++,</gry>│
-│     <gry>and more listed below here. When I was starting to find interest in</gry>      │
-│     <gry>Linux, networking, and IoT. I started off with Termux and moved on to an</gry> │
-│     <gry>actual Linux machine then VPS servers.</gry>                                   │
-│                                                                              │
-│ ---- <y>Knowledge</y> ------------------------------------------------------------- │
-│                                                                              │
-│   <ly>::</ly> Python       8/10 <ly>********</ly>**                                            │
-│   <ly>::</ly> Web Design   8/10 <ly>********</ly>**                                            │
-│   <ly>::</ly> Wordpress    7/10 <ly>*******</ly>***                                            │
-│   <ly>::</ly> GNU/Linux    7/10 <ly>*******</ly>***                                            │
-│   <ly>::</ly> Bash         7/10 <ly>*******</ly>***                                            │
-│   <ly>::</ly> C++          2/10 <ly>**</ly>********                                            │
-│                                                                              │
-│ ---- <y>What I Do</y> ------------------------------------------------------------- │
-│                                                                              │
-│   • <gry>Coding, Exploitation, Web Design</gry>                                         │
-│                                                                              │
-│ ---- <y>Portfolio</y> ------------------------------------------------------------- │
-│                                                                              │
-│   • <gry>Coming Soon</gry>                                                              │
-│                                                                              │
-│                                                                              │
-│                                   <a href="./driftlol"><lb>Click Me</lb></a>                                   │
-└──────────────────────────────────────────────────────────────────────────────┘
-</pre>
-        </div>
-	<style>
-		body {
-			cursor: url('./media/cursor.png'), auto;
-		}
-	</style>
+   <center>
+   <div style="display: inline-block; text-align: center;"><pre>
+                                 <bb>      ....          </bb>                              
+                                 <bb>  .xH888888Hx.      </bb>                              
+                                 <bb> .H8888888888888:   </bb>                              
+                                 <bb> 888*"""?""*88888X  </bb>                              
+                                 <bb>'f     d8x.   ^%88k </bb>                              
+                                 <bb>'>    <88888X   '?8 </bb>                              
+                                 <bb> `:..:`888888>    8></bb>                              
+                                 <bb>        `"*88     X </bb>                              
+                                 <bb>   .xHHhx.."      ! </bb>                              
+   ┌────────────────────────     <bb>  X88888888hx. ..!  </bb>     ────────────────────────┐
+   │                             <bb> !   "*888888888"   </bb>                             │
+   │                             <bb>        ^"***"`     </bb>                             │
+   │                                                                              │
+   │ ---- <y>About Myself</y> ---------------------------------------------------------- │
+   │                                                                              │
+   │   • <gry>Hi, I'm DeAngelo I like to code in my spare time for fun and to explore</gry>  │
+   │     <gry>computer science and languages. I know Python, Bash, a little bit of C++,</gry>│
+   │     <gry>and more listed below here. When I was starting to find interest in</gry>      │
+   │     <gry>Linux, networking, and IoT. I started off with Termux and moved on to an</gry> │
+   │     <gry>actual Linux machine then VPS servers.</gry>                                   │
+   │                                                                              │
+   │ ---- <y>Knowledge</y> ------------------------------------------------------------- │
+   │                                                                              │
+   │   <ly>::</ly> Python       8/10 <ly>********</ly>**                                            │
+   │   <ly>::</ly> Web Design   8/10 <ly>********</ly>**                                            │
+   │   <ly>::</ly> Wordpress    7/10 <ly>*******</ly>***                                            │
+   │   <ly>::</ly> GNU/Linux    7/10 <ly>*******</ly>***                                            │
+   │   <ly>::</ly> Bash         7/10 <ly>*******</ly>***                                            │
+   │   <ly>::</ly> C++          2/10 <ly>**</ly>********                                            │
+   │                                                                              │
+   │ ---- <y>What I Do</y> ------------------------------------------------------------- │
+   │                                                                              │
+   │   • <gry>Coding, Exploitation, Web Design</gry>                                         │
+   │                                                                              │
+   │ ---- <y>Portfolio</y> ------------------------------------------------------------- │
+   │                                                                              │
+   │   • <gry>Coming Soon</gry>                                                              │
+   │                                                                              │
+   │                                                                              │
+   │                                   <a href="./driftlol"><lb>Click Me</lb></a>                                   │
+   └──────────────────────────────────────────────────────────────────────────────┘
+   </pre>
+           </div>
+   	<style>
+   		body {
+   			cursor: url('./media/cursor.png'), auto;
+   		}
+   	</style>
    </center>
-   </body>
+</body>
 </html>

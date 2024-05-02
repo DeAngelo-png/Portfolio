@@ -1,3 +1,13 @@
+/* Set backgound color*/
+body {
+  color: #dddddd;
+  background-color: #000000; 
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0 auto;
+  padding: 1em 0 1em 0;
+}
+
 /* Adjust layout for smaller screens */
 @media only screen and (max-width: 600px) {
     body {

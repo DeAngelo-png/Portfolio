@@ -14,6 +14,18 @@ body {
 }
 
 /* Adjust layout for smaller screens */
+@media only screen and (max-width: 1000px) { /* Highest */
+  body {
+      padding: 0.5em;
+      transition: padding 0.3s ease; /* Smooth transition for padding */
+  }
+  pre {
+      font-size: 15px;
+      line-height: 15px;
+      transition: font-size 0.3s ease, line-height 0.3s ease; /* Smooth transitions for font size and line height */
+  }
+}
+
 @media only screen and (max-width: 800px) {
   body {
       padding: 0.5em;
@@ -44,7 +56,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) { /* Lowest */
   body {
       padding: 0.5em;
   }

@@ -1,42 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>DeAngelo's Portfolio</title> <!-- Animated Title -->
-	<script src="./scripts/title.js"></script>
 	<link rel="icon" type="image/x-icon" href="./favicon.ico">
+	<link rel="stylesheet" href="style.css">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-		}
+	<script src="./scripts/title.js"></script>
+	<title>DeAngelo's Portfolio</title> <!-- Animated Title, use regular title if js disabled -->
+	<!--<img src="" width="1" height="1">-->
+</head>
+<style>
+	body {
+		margin: 0;
+		padding: 0;
+	}
 
-		#video-background {
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			z-index: -1;
-			overflow: hidden;
-		}
+	#video-background {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		overflow: hidden;
+	}
 
-		#video-background video {
-			min-width: 100%;
-			min-height: 100%;
-			width: auto;
-			height: auto;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			z-index: -1;
-		}
+	#video-background video {
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: -1;
+	}
 
-		#video-background audio {
-			display: none;
-		}
-	</style>
+	#video-background audio {
+		display: none;
+	}
+</style>
 </head>
 <body>
 	<div id="video-background">

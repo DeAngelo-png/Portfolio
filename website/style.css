@@ -10,7 +10,7 @@ body {
 
 /* Cursor */
 body {
-  cursor: url('./media/cursor.png'), auto;
+  cursor: url('./media/images/cursor.png'), auto;
 }
 
 /* Adjust layout for smaller screens */
